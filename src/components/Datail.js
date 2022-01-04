@@ -5,7 +5,7 @@ export default () => {
     return(
         <Container>
             <Background>
-                <img src="https://1.bp.blogspot.com/-wYNIv7AFhyc/YUo476uNRnI/AAAAAAAACUw/XqViKy2wsbIjpAEFSEjiIiL0g1s4uloPwCLcBGAsYHQ/s1877/Luca-caio-Alberto-Luca-Short-LI.jpg" alt="" />
+                <img src="https://images.squarespace-cdn.com/content/v1/59d7e2c7e45a7c0ce235bb55/1624025115831-5HBZ1KP7WL3COX51NE7H/Film-Review-Disney-Pixar-Luca.jpg?format=1000w" alt="" />
             </Background>
             <ImageTitle>
                 <img src="https://images.squarespace-cdn.com/content/v1/51cdafc4e4b09eb676a64e68/1619566337756-F9C4OZ58Z286TEAWMSHD/logo.png" alt="" />
@@ -26,6 +26,13 @@ export default () => {
                     <img src="/images/group-icon.png" alt="" />
                 </GroupWatchButton>
             </Controls>
+            <SubTitle>
+                <span>2021 . 135m . Fantasia, Infantil, Animação</span>
+            </SubTitle>
+            <Description>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+            </Description>
         </Container>
     );
 }
@@ -116,4 +123,18 @@ const AddButton = styled.button `
 
 const GroupWatchButton = styled(AddButton) `
     background: rgb(0, 0, 0);
+`;
+
+const SubTitle = styled.div `
+    color: rgb(249, 249, 249);
+    font-size: 15px;
+    min-height: 20px;
+    margin-top: 26px;
+`;
+
+const Description = styled.div `
+    line-height: 1.4;
+    font-size: 20px;
+    margin-top: 16px;
+    color: rgb(249, 249, 249);
 `;
