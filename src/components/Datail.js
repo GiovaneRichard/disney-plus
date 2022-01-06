@@ -30,8 +30,8 @@ export default () => {
                 <span>2021 . 135m . Fantasia, Infantil, Animação</span>
             </SubTitle>
             <Description>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
-            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
             </Description>
         </Container>
     );
@@ -65,6 +65,7 @@ const ImageTitle = styled.div `
     min-height: 170px;
     width: 35vw;
     min-width: 200px;
+    margin-top: 60px;
 
     img {
         width: 100%;
@@ -137,4 +138,5 @@ const Description = styled.div `
     font-size: 20px;
     margin-top: 16px;
     color: rgb(249, 249, 249);
+    max-width: 760px;
 `;
